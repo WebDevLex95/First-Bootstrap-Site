@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
@@ -180,13 +181,191 @@
         </div>
     </section>
 
-
     <!----Question Accordion-->
-    <section id="questions" class="p-5"></section>
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" >
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" >
+                      Where exactly are you located
+                    </button>
+                  </h2>
+                  <div
+                   id="question-one" 
+                   class="accordion-collapse collapse" aria-labelledby="flush-headingOne" 
+                   data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, a consequuntur. Laudantium accusamus doloremque ipsam ipsum ad veniam, ipsa cumque harum repellat quia libero sint tenetur minima animi ea. Quas, dignissimos. Rem itaque harum aliquam unde minus? Saepe, ipsa, quasi facilis assumenda nisi quia impedit aliquam, dolor ratione ex vitae.</div>
+                  </div>
+                </div>
 
+                <div class="accordion-item">
+                    <h2 class="accordion-header" >
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two" >
+                        How much does it cost to attend
+                      </button>
+                    </h2>
+                    <div
+                     id="question-two" 
+                     class="accordion-collapse collapse" aria-labelledby="flush-headingOne" 
+                     data-bs-parent="#questions">
+                      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, a consequuntur. Laudantium accusamus doloremque ipsam ipsum ad veniam, ipsa cumque harum repellat quia libero sint tenetur minima animi ea. Quas, dignissimos. Rem itaque harum aliquam unde minus? Saepe, ipsa, quasi facilis assumenda nisi quia impedit aliquam, dolor ratione ex vitae.</div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" >
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three" >
+                        What do i need to know
+                      </button>
+                    </h2>
+                    <div
+                     id="question-three" 
+                     class="accordion-collapse collapse" aria-labelledby="flush-headingOne" 
+                     data-bs-parent="#questions">
+                      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, a consequuntur. Laudantium accusamus doloremque ipsam ipsum ad veniam, ipsa cumque harum repellat quia libero sint tenetur minima animi ea. Quas, dignissimos. Rem itaque harum aliquam unde minus? Saepe, ipsa, quasi facilis assumenda nisi quia impedit aliquam, dolor ratione ex vitae.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" >
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four" >
+                        Do you Help me find a Job?
+                      </button>
+                    </h2>
+                    <div
+                     id="question-four" 
+                     class="accordion-collapse collapse" aria-labelledby="flush-headingOne" 
+                     data-bs-parent="#questions">
+                      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, a consequuntur. Laudantium accusamus doloremque ipsam ipsum ad veniam, ipsa cumque harum repellat quia libero sint tenetur minima animi ea. Quas, dignissimos. Rem itaque harum aliquam unde minus? Saepe, ipsa, quasi facilis assumenda nisi quia impedit aliquam, dolor ratione ex vitae.</div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+    <section id="instructors" class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-white">Our Instructors</h2>
+            <p class="lead text-center text-white mb-5">Our intstructors are the best in the industry</p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle" alt="">
+                            <h3 class="card-title mb-3">John Wixk</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quia repellendus mollitia architecto minima fuga?
+                            </p>
+                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle" alt="">
+                            <h3 class="card-title mb-3">Jane Doe</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quia repellendus mollitia architecto minima fuga?
+                            </p>
+                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/16.jpg" class="rounded-circle" alt="">
+                            <h3 class="card-title mb-3">Ron Weasly</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quia repellendus mollitia architecto minima fuga?
+                            </p>
+                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/19.jpg" class="rounded-circle" alt="">
+                            <h3 class="card-title mb-3">Tim Smith</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quia repellendus mollitia architecto minima fuga?
+                            </p>
+                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location:</span> 50 main St
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Enrollment phone:</span> 7733877454
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Student Phone:</span> 7733437854
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Enrollment Email:</span> apply2023@gmail.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id="map">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white position-relative">
+        <div class="container">
+            
+        </div>
+    </footer>
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYWpyYW1pcmV6MTk5NSIsImEiOiJjbDlsemgwdHQwczc5M3VueGtldHhxM3JpIn0.VZwFd52vwtrlchh2_uq2gQ';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center: [-71.060982,42.35725],
+    zoom:18,
+  });
+    </script>
+
 </body>
 </html>
