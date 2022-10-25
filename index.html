@@ -46,7 +46,7 @@
                     <p class="lead my-4">
                         We focus on teaching our students the best way to become a web developer in 6 months.
                     </p>
-                    <button class="btn btn-primary btn-lg">Start Enrollment</button>
+                    <button class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#enroll">Start Enrollment</button>
                 </div>
                 <img class="img-fluid w-50 d-none d-sm-block" src="img/undraw_conference_re_2yld.svg">
             </div>
@@ -355,6 +355,32 @@
             </a>
         </div>
     </footer>
+
+    <!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill Out This Form</p>
+          <form action="">
+            <div class="mb3">
+                <label for="first-name" class="col-form-label">
+                    First Name:
+                </label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
 
 
 
